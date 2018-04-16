@@ -1,0 +1,30 @@
+Ansible in virtualenv
+
+1. Instalare dependente
+
+apt-get install python-dev python-pip build-essential libssl-dev libffi-dev 
+
+2. Instalare virtualenv
+
+pip install virtualenv
+
+3. Creare director pentru noul "proiect"
+mkdir ~/ansible_p001
+
+4. Creare virtualenv in directorul creat anterior
+cd ~/ansible_p001
+virtualenv -p `which python` venv
+
+5. Activare virtualenv "venv"
+source venv/bin/activate
+
+6. Install ansible
+pip install ansible
+
+
+python - pip, easy-install
+perl - cpan
+php - pear
+ruby - rvm , gem
+
+
